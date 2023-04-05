@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+$color1:#141948;
+$color2:#3bbca7;
+$color3:#dddfe3;
+$color4:#f6f7f9;
+$color5:#000;
+
+
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4,
+.footer-5 {
+
+    width: 100%;
+}
+.bod {
+    width: 100%;
+    height: 60px;
+}
+
+.footer-menu-1,
+.footer-menu-2,
+.footer-menu-3,
+.footer-menu-4,
+.footer-menu-5 {
+    width: 100%;
+    padding-top: 40px;
+
+    h3 {
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        color: $color3;
+    }
+
+    ul {
+        li {
+            padding-bottom: 7px;
+
+            a {
+                color: $color3;
+                font-weight: 300;
+                opacity: 0.8;
+                transition: .5s;
+
+                &:hover {
+                    opacity: 1;
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
+
+    
+}
+
+#footer {
+    width: 100%;
+    height: 70%;
+    background-color: $color1;
+    
+}
+
+
+
+.footer-menu-1 {
+    padding-right: 50px;
+
+    .footer-menu-img {
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 400;
+        color: $color3;
+    }
+
+    ul {
+        li {
+            a {
+                color: $color4;
+                transition: .3s;
+
+                &:hover {
+                    color: $color3;
+                 
+                }
+
+                i {
+                    padding: 10px;
+
+                    border-radius: 50%;
+                    margin-left: 10px;
+                    border: 1px solid $color2;
+                    transition: .3s;
+
+                    &:hover {
+                        background-color: $color2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-menu-4 {
+    ul {
+        li {
+            padding-bottom: 7px;
+
+            a {
+                color: $color3;
+                font-weight: 300;
+                opacity: 1;
+                transition: .5s;
+
+                i {
+
+                    padding-right: 10px;
+                    color: $color2;
+
+                }
+
+               
+            }
+
+        }
+    }
+
+}
+.footer-menu-5 {
+
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    text-align: center;
+    padding-top: 10px;
+
+    p {
+        color: $color3;
+        opacity: 0.7;
+    }
+}
+
+.footer {
+    padding-top: 100px;
+
+}
+
+
+
